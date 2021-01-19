@@ -107,17 +107,15 @@ footer{
     z-index: -1;
 }
 
-.line{
-    border: 2px solid #017143;
-    background-color: #017143;
-    width: 40px;
-    margin: 10px;
-    display: none;
-}
+
 @media screen and (max-width: 800px){
     .body{
         flex-direction: column;
         justify-content: center;
+    }
+
+    .navbar-items{
+        display: none;
     }
 
     .mainText{
@@ -151,24 +149,5 @@ footer{
     }
     .bigImage{
         transform: scale(0.8);
-    }
-
-    .line{
-        display: block;
-        margin-top: 2px;
-    }
-
-    .navbar-items{
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        right: 100px;
-        top: 100px;
-        background-color: #00180e;
-        border-radius: 20px;
-        display: none;
-    }
-    .navbar-items li,a{
-        color: white;
     }
 }
