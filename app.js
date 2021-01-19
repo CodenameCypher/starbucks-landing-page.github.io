@@ -40,6 +40,7 @@ hamburger.addEventListener("click",function() {
         line1.style.transform = 'rotate(0)';
         line2.style.display = 'block';
         line3.style.transform = 'rotate(0)';
+        line3.style.position = 'absolute';
         line3.style.top = '78px';
         toggler = false;
     }
